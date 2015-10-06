@@ -1,6 +1,8 @@
 title: Site title
 author: Site Autor
-baseurl: ""
+
+# use gh-pages to create live demo at matiasdahl.github.io/homepage-theme/
+baseurl: "/homepage-theme"
 
 date_format: "%Y-%m-%d"
 
