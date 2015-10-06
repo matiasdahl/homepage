@@ -9,7 +9,7 @@ layout: default
             <span>{{ post.date | date: site.date_format }}</span>
 
             {% if post.external-url %}
-            <a href="{{ post.external-url | prepend: site.baseurl }}">
+            <a href="{{ post.external-url }}">
                 {{ post.title }}
             </a>
             {% else %}
